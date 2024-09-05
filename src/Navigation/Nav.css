@@ -1,0 +1,23 @@
+.nav {
+  height: 8%;
+  width: 40%;
+  transition-duration: 0.3s;
+}
+
+.nav img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.nav:hover img {
+  scale: 105%;
+}
+
+@media (max-width: 1080px) {
+  .nav {
+    height: 8%;
+    width: 80%;
+  }
+}
