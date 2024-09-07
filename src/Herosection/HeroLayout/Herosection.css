@@ -16,6 +16,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  transition-duration: 0.4s;
 }
 
 .imagecontainer {
@@ -25,6 +26,12 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.29, 0.82, 0.72, 1.17);
+}
+
+.imagecontainer:hover {
+  scale: 102%;
 }
 .imageholder {
   height: 100%;

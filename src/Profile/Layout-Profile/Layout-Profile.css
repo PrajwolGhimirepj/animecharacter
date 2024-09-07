@@ -11,6 +11,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 2px;
+  color: #000000;
 }
 
 .container-P {
@@ -27,5 +28,6 @@
   width: 100%;
   align-items: start;
   display: flex;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
 }
