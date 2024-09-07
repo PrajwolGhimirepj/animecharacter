@@ -1,5 +1,5 @@
 import React from "react";
-import "./herosection.css";
+import "./Herosection.css";
 import Search from "../Search/Search";
 import Card from "../Card/Card";
 import SideNav from "../SideNavigation/NavSide";
